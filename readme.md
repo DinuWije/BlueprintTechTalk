@@ -28,7 +28,7 @@
 ## Part 3: Docker
 - Download Docker
 - Steps to run the container:
-    - build image `docker build --tag python-docker`
+    - build image `docker build --tag python-docker .`
     - view images with `docker images`
     - `docker run python-docker` to run the container
     - `docker run -d -p 5000:5000 python-docker` to run the container and port forward
